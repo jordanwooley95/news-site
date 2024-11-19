@@ -1,19 +1,19 @@
-import Link from 'next/link';
-import NavLink from '@/components/NavLink';
+import Link from "next/link";
+import NavLink from "@/components/NavLink";
 
 export default function MainHeader() {
   return (
-    <header id='main-header'>
-      <div id='logo'>
-        <Link href='/'>jNews</Link>
+    <header id="main-header">
+      <div id="logo">
+        <Link href="/">jNews</Link>
       </div>
       <nav>
         <ul>
           <li>
-            <NavLink href='/news'>News</NavLink>
+            <NavLink href="/news">News</NavLink>
           </li>
           <li>
-            <NavLink href='/archive'>Archive</NavLink>
+            <NavLink href="/archive">Archive</NavLink>
           </li>
         </ul>
       </nav>
